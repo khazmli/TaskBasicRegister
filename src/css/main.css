@@ -1,0 +1,83 @@
+form {
+  width: 40%;
+  border: 1px solid rgba(197, 197, 197, 0.158);
+  text-align: center;
+  background-color: rgba(197, 197, 197, 0.158);
+  border-radius: 15px;
+}
+
+body {
+  background-image: url("/src/img/images.jpg");
+  background-size: cover;
+
+
+  width: 100vw;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  border-top: none;
+  border: 3px solid rgba(0, 0, 255, 0.63);
+}
+
+label {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.input1 {
+  width: 75%;
+}
+
+.button {
+  padding: 10px;
+  width: 50%;
+  border-radius: 15px;
+  border: 1px solid rgb(7, 47, 177);
+  background-color: rgb(7, 47, 177);
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#country {
+  padding: 10px;
+  border-radius: 15px;
+  border-top: none;
+  border: 3px solid rgba(0, 0, 255, 0.63);
+  width: 75%;
+}
+
+#message {
+  padding: 10px;
+  border-radius: 15px;
+  border-top: none;
+  border: 3px solid rgba(0, 0, 255, 0.63);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 80px;
+}
+
+td,
+th {
+  border: 3px solid rgba(4, 0, 255, 0.644);
+  color: white;
+  background-color: rgba(128, 128, 128, 0.466);
+  text-align: left;
+  padding: 8px;
+}
+
+.registerCard{
+   display:flex ;
+   justify-content: center;
+}
+
+.tablecard{
+   display:flex ;
+   justify-content: center;
+}

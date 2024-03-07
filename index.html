@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+  </head>
+
+  <body>
+
+    <div class="registerCard"> 
+      <form id="form">
+      <h1 style="color: rgb(255, 255, 255)">Registration</h1>
+      <br />
+      <input class="input1" placeholder="name" type="text" />
+      <br />
+      <br />
+      <input class="input1" placeholder="surname" type="text" />
+      <br />
+      <br />
+      <label for="">Years</label> <br />
+      <input class="input1" type="date" />
+      <br />
+      <br />
+      <label for="Contact">Contact Number</label> <br />
+      <input
+        class="input1"
+        value="+994"
+        id="Contact"
+        name="Contact"
+        type="tel"
+      />
+      <br />
+      <br />
+      <input name="gender" type="radio" />
+      <span style="color: white; font-family: 'Courier New', Courier, monospace"
+        >Male</span
+      >
+      <input name="gender" type="radio" /><span
+        style="color: white; font-family: 'Courier New', Courier, monospace"
+        >Famale</span
+      >
+      <br />
+      <br />
+      <label for="">What is your favorite color?</label>
+      <br />
+      <input type="color" /><br />
+      <br />
+      <select name="country" id="country">
+        <option value="Azerbaijan">Azerbaijan</option>
+        <option value="Russia">Russia</option>
+        <option></option>
+        <option value="Turkiye">Turkiye</option>
+      </select>
+      <br />
+      <br />
+      <input class="input1" placeholder="Email" type="email" />
+      <br />
+      <br />
+      <input class="input1" placeholder="Password" type="password" />
+      <br />
+      <br />
+      <textarea
+        placeholder="Private Message"
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <br />
+      <label for="">Remember Me</label>
+      <input type="checkbox" />
+      <br />
+      <br />
+      <button type="sumbit" class="button">Sumbit</button>
+      <br />
+      <br />
+    </form>
+  </div>
+
+   <div class="tablecard">
+    <table id="table">
+      <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Country</th>
+        <th>Contact</th>
+      </tr>
+      <tr>
+        <td>Togrul</td>
+        <td>Kazimli</td>
+        <td>Azerbaijan</td>
+        <td>+994514369270</td>
+      </tr>
+      <tr>
+        <td>Mirze</td>
+        <td>Besirzade</td>
+        <td>Turkiye</td>
+        <td>+994501556464</td>
+      </tr>
+      <tr>
+        <td>Ali</td>
+        <td>Eliyev</td>
+        <td>Russia</td>
+        <td>+994514529560</td>
+      </tr>
+      <tr>
+        <td>Orxan</td>
+        <td>Suleymanli</td>
+        <td>Azerbaijan</td>
+        <td>+994557894565</td>
+      </tr>
+    </table>
+   </div>
+    
+
+  
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
